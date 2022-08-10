@@ -133,6 +133,44 @@ Table: List of Mandatory Curves
 | TPM_ECC_NIST_P256 | M       |
 | TPM_ECC_NIST_P384 | M       |
 
+# Example Code
+
+```go
+package main
+import "fmt"
+func main() {
+    fmt.Println("hello world")
+}
+```
+
+```python
+print('Hello, world!')
+```
+
+```c
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, world!");
+   return 0;
+}
+```
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, world!";
+    return 0;
+}
+```
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
 # Highly Nested Section
 
 Hello.
