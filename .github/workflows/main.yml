@@ -1,0 +1,32 @@
+# Render the examples using the TCG action.
+
+name: Render Demos
+
+on:
+  [push, pull_request, workflow_dispatch]
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    name: Render the example text
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Render
+        uses: trustedcomputinggroup/markdown@v0.0.1
+        with:
+          input-md: lorem.md
+          output-pdf: lorem.pdf
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: lorem.pdf
+          path: lorem.pdf
+          
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        if: ${{ github.event_name == 'push' }}
+        with:
+          commit_message: Generate latest PDF
+          file_pattern: lorem.pdf
