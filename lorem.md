@@ -1,7 +1,7 @@
 ---
 title: "Lorem Ipsum Platform Dolor Sit Amet Profile for TPM 2.0"
 version: 0.2
-revision: 17
+revision: 18
 date-english: August 10, 2022
 date: 8/10/2022
 year: 2022
@@ -10,6 +10,8 @@ type: SPECIFICATION
 status: DRAFT
 lot: true
 ...
+
+\newpage
 
 # DISCLAIMERS, NOTICES, AND LICENSE TERMS
 
@@ -30,17 +32,24 @@ Contact the Trusted Computing Group at www.trustedcomputinggroup.org for informa
 through membership agreements.
 Any marks and brands contained herein are the property of their respective owners.
 
+\newpage
+
 # CHANGE HISTORY
 
 | Revision | Date       | Description   |
 | -------- | ---------- | ------------- |
 | 0.2/17   | 2022/08/10 | Initial draft |
+| 0.2/18   | 2022/08/10 | Add page breaks |
+
+\newpage
 
 # Introduction
 
 > Informative text! This text is very informative.
 
 Edison bulb reprehenderit shaman chartreuse food truck. Meggings +1 keytar, swag intelligentsia VHS eiusmod farm-to-table palo santo cupidatat ad same. Yr DIY slow-carb flannel skateboard humblebrag edison bulb hoodie selfies squid photo booth helvetica cardigan subway tile vice. Duis street art brunch excepteur ut vice +1 sint in.
+
+\newpage
 
 # Document Style
 
@@ -60,11 +69,18 @@ each informative comment and highlighting its text in gray. This means that unle
 the kind informative comment, it can be considered a kind of normative statements. 
 
 > **EXAMPLE: *Start of informative comment***
+> 
 > This is the first paragraph of 1–n paragraphs containing text of the kind informative comment ...
+> 
 > This is the second paragraph of text of the kind informative comment ...
+> 
 > This is the nth paragraph of text of the kind informative comment ...
+> 
 > To understand the TCG specification the user must read the specification. (This use of MUST does not require any action).
+> 
 > ***End of informative comment***
+
+\newpage
 
 # References and Terms
 
@@ -74,7 +90,9 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Terms
 
-> The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/.
+> The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. [spoilednyc.com](https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/).
+
+\newpage
 
 # Deserunt Tacos
 
