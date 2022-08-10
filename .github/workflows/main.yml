@@ -3,7 +3,11 @@
 name: Render Demos
 
 on:
-  [push, pull_request, workflow_dispatch]
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   render:
@@ -30,4 +34,4 @@ jobs:
         with:
           commit_message: Generate latest PDF
           file_pattern: lorem.pdf
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request'
