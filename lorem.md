@@ -18,6 +18,7 @@ lot: true
 THIS SPECIFICATION IS PROVIDED “AS IS” WITH NO WARRANTIES WHATSOEVER, INCLUDING ANY
 WARRANTY OF MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR
 ANY WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, SPECIFICATION OR SAMPLE.
+
 Without limitation, TCG disclaims all liability, including liability for infringement of any proprietary rights, relating to use
 of information in this specification and to the implementation of this specification, and TCG disclaims all liability for
 cost of procurement of substitute goods or services, lost profits, loss of use, loss of data or any incidental,
@@ -93,6 +94,22 @@ the kind informative comment, it can be considered a kind of normative statement
 > The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. [spoilednyc.com](https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/).
 
 \newpage
+
+# A Diagram
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
 
 # Deserunt Tacos
 
