@@ -94,6 +94,28 @@ the kind informative comment, it can be considered a kind of normative statement
 
 \newpage
 
+# Diagrams
+
+## Computer
+
+![image of a computer](computer.jpg)
+
+## Hypochondria
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
 # Deserunt Tacos
 
 Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicing incididunt aute. Authentic typewriter direct trade et skateboard. Everyday carry aliquip aesthetic tattooed, XOXO palo santo pork belly thundercats gentrify veniam poutine nisi air plant pabst. Readymade tbh pitchfork pabst. Sint voluptate master cleanse vaporware. Humblebrag retro taxidermy, meggings labore chartreuse keffiyeh iceland laborum la croix ut ad DSA snackwave. Elit bicycle rights ramps, artisan put a bird on it bruh 90's gluten-free +1 occupy neutra microdosing.
