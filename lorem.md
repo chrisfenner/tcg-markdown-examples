@@ -9,6 +9,7 @@ contact: admin@trustedcomputinggroup.org
 type: SPECIFICATION
 status: DRAFT
 lot: true
+lof: true
 ...
 
 \newpage
@@ -98,11 +99,11 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Computer
 
-![image of a computer](computer.jpg)
+![image of a computer](computer.jpg){#fig:computer}
 
 ## Hypochondria
 
-```mermaid
+```{.mermaid #fig:hypochondria}
 sequenceDiagram
     participant Alice
     participant Bob
