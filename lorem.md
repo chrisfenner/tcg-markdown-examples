@@ -9,15 +9,17 @@ contact: admin@trustedcomputinggroup.org
 type: SPECIFICATION
 status: DRAFT
 lot: true
+lof: true
 ...
 
 \newpage
 
-# DISCLAIMERS, NOTICES, AND LICENSE TERMS
+# Disclaimers, Notices, and License Terms
 
 THIS SPECIFICATION IS PROVIDED “AS IS” WITH NO WARRANTIES WHATSOEVER, INCLUDING ANY
 WARRANTY OF MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR
 ANY WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, SPECIFICATION OR SAMPLE.
+
 Without limitation, TCG disclaims all liability, including liability for infringement of any proprietary rights, relating to use
 of information in this specification and to the implementation of this specification, and TCG disclaims all liability for
 cost of procurement of substitute goods or services, lost profits, loss of use, loss of data or any incidental,
@@ -34,12 +36,12 @@ Any marks and brands contained herein are the property of their respective owner
 
 \newpage
 
-# CHANGE HISTORY
+# Change History
 
-| Revision | Date       | Description   |
-| -------- | ---------- | ------------- |
-| 0.2/17   | 2022/08/10 | Initial draft |
-| 0.2/18   | 2022/08/10 | Add page breaks |
+| **Revision** | **Date**   | **Description** |
+| ------------ | ---------- | --------------- |
+| 0.2/17       | 2022/08/10 | Initial draft   |
+| 0.2/18       | 2022/08/10 | Add page breaks |
 
 \newpage
 
@@ -98,11 +100,11 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Computer
 
-![image of a computer](computer.jpg)
+![image of a computer](computer.jpg){#fig:computer}
 
 ## Hypochondria
 
-```mermaid
+```{.mermaid caption="hypochondria"}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -128,32 +130,32 @@ Bodega boys selvage magna +1. Pinterest narwhal meditation ullamco. Blue bottle 
 
 Table: List of Mandatory Algorithms
 
-| Algorithm ID     | M/R/O/D | Comments                                      |
-| ---------------- | ------- | --------------------------------------------- |
-| TPM_ALG_ECC      | M       | Support for 256 and 384-bit keys is required. |
-| TPM_ALG_ECDSA    | M       |
-| TPM_ALG_ECDH     | M       |
-| TPM_ALG_ECDAA    | O       |
-| TPM_ALG_RSA      | O       |
-| TPM_ALG_RSAES    | O       |
-| TPM_ALG_RSAPSS   | O       |
-| TPM_ALG_RSAOAEP  | O       |
-| TPM_ALG_AES      | M       |
-| TPM_ALG_SHA256   | M       |
-| TPM_ALG_SHA384   | M       |
-| TPM_ALG_SHA512   | O       |
-| TPM_ALG_HMAC     | M       |
-| TPM_ALG_SHA3_256 | O       |
-| TPM_ALG_SHA3_384 | O       |
-| TPM_ALG_SHA3_512 | O       |
-| TPM_ALG_NULL     | M       |
+| **Algorithm ID** | **M/R/O/D** | **Comments**                                  |
+| ---------------- | ----------- | --------------------------------------------- |
+| TPM_ALG_ECC      | M           | Support for 256 and 384-bit keys is required. |
+| TPM_ALG_ECDSA    | M           |
+| TPM_ALG_ECDH     | M           |
+| TPM_ALG_ECDAA    | O           |
+| TPM_ALG_RSA      | O           |
+| TPM_ALG_RSAES    | O           |
+| TPM_ALG_RSAPSS   | O           |
+| TPM_ALG_RSAOAEP  | O           |
+| TPM_ALG_AES      | M           |
+| TPM_ALG_SHA256   | M           |
+| TPM_ALG_SHA384   | M           |
+| TPM_ALG_SHA512   | O           |
+| TPM_ALG_HMAC     | M           |
+| TPM_ALG_SHA3_256 | O           |
+| TPM_ALG_SHA3_384 | O           |
+| TPM_ALG_SHA3_512 | O           |
+| TPM_ALG_NULL     | M           |
 
 Table: List of Mandatory Curves
 
-| Curve Identifier  | M/R/O/D | Comments |
-| ----------------- | ------- | -------- |
-| TPM_ECC_NIST_P256 | M       |
-| TPM_ECC_NIST_P384 | M       |
+| **Curve Identifier** | **M/R/O/D** | **Comments** |
+| -------------------- | ----------- | ------------ |
+| TPM_ECC_NIST_P256    | M           |
+| TPM_ECC_NIST_P384    | M           |
 
 # Example Code
 
