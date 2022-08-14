@@ -38,6 +38,8 @@ Any marks and brands contained herein are the property of their respective owner
 
 # Change History
 
+Table: Change History
+
 | **Revision** | **Date**   | **Description** |
 | ------------ | ---------- | --------------- |
 | 0.2/17       | 2022/08/10 | Initial draft   |
@@ -104,7 +106,7 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Hypochondria
 
-```{.mermaid caption="hypochondria"}
+```mermaid{.mermaid caption="hypochondria"}
 sequenceDiagram
     participant Alice
     participant Bob
