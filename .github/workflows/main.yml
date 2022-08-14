@@ -34,6 +34,7 @@ jobs:
       - name: Check in latest render
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          skip_dirty_check: true
           commit_message: Generate latest PDF
           file_pattern: lorem.pdf
         if: github.event_name != 'pull_request'
