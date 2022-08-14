@@ -106,7 +106,7 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Hypochondria
 
-```mermaid {.mermaid caption="Hypochondria"}
+```mermaid {caption="Hypochondria"}
 sequenceDiagram
     participant Alice
     participant Bob
