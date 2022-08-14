@@ -102,11 +102,11 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Computer
 
-![image of a computer](computer.jpg){#fig:computer}
+![image of a computer](computer.jpg){#fig:Computer}
 
 ## Hypochondria
 
-```mermaid {caption="Hypochondria"}
+```{.mermaid #fig:Hypochondria}
 sequenceDiagram
     participant Alice
     participant Bob
