@@ -38,12 +38,12 @@ Any marks and brands contained herein are the property of their respective owner
 
 # Change History
 
-Table: Change History
-
 | **Revision** | **Date**   | **Description** |
 | ------------ | ---------- | --------------- |
 | 0.2/17       | 2022/08/10 | Initial draft   |
 | 0.2/18       | 2022/08/10 | Add page breaks |
+
+Table: Change History
 
 \newpage
 
@@ -102,11 +102,13 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Computer
 
-![image of a computer](computer.jpg){#fig:Computer}
+![image of a computer](computer.jpg)
+
+Figure: Computer
 
 ## Hypochondria
 
-```{.mermaid #fig:Hypochondria}
+```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
@@ -120,6 +122,8 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
+Figure: Hypochondria
+
 # Deserunt Tacos
 
 Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicing incididunt aute. Authentic typewriter direct trade et skateboard. Everyday carry aliquip aesthetic tattooed, XOXO palo santo pork belly thundercats gentrify veniam poutine nisi air plant pabst. Readymade tbh pitchfork pabst. Sint voluptate master cleanse vaporware. Humblebrag retro taxidermy, meggings labore chartreuse keffiyeh iceland laborum la croix ut ad DSA snackwave. Elit bicycle rights ramps, artisan put a bird on it bruh 90's gluten-free +1 occupy neutra microdosing.
@@ -129,8 +133,6 @@ Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicin
 Bodega boys selvage magna +1. Pinterest narwhal meditation ullamco. Blue bottle sustainable cloud bread esse pariatur, vibecession keytar. Paleo hoodie mixtape DIY banh mi eiusmod letterpress kinfolk la croix.
 
 # Mandatory Algorithms and Curves
-
-Table: List of Mandatory Algorithms
 
 | **Algorithm ID** | **M/R/O/D** | **Comments**                                  |
 | ---------------- | ----------- | --------------------------------------------- |
@@ -152,12 +154,14 @@ Table: List of Mandatory Algorithms
 | TPM_ALG_SHA3_512 | O           |
 | TPM_ALG_NULL     | M           |
 
-Table: List of Mandatory Curves
+Table: List of Mandatory Algorithms
 
 | **Curve Identifier** | **M/R/O/D** | **Comments** |
 | -------------------- | ----------- | ------------ |
 | TPM_ECC_NIST_P256    | M           |
 | TPM_ECC_NIST_P384    | M           |
+
+Table: List of Mandatory Curves
 
 # Example Code
 
