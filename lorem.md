@@ -2,17 +2,14 @@
 title: "Lorem Ipsum Platform Dolor Sit Amet Profile for TPM 2.0"
 version: 0.2
 revision: 18
-date-english: August 10, 2022
-date: 8/10/2022
-year: 2022
-contact: admin@trustedcomputinggroup.org
+date: 2022/08/14
 type: SPECIFICATION
 status: DRAFT
 lot: true
 lof: true
 ...
 
-\newpage
+---
 
 # Disclaimers, Notices, and License Terms
 
@@ -34,18 +31,18 @@ Contact the Trusted Computing Group at www.trustedcomputinggroup.org for informa
 through membership agreements.
 Any marks and brands contained herein are the property of their respective owners.
 
-\newpage
+---
 
 # Change History
+
+Table: Change History
 
 | **Revision** | **Date**   | **Description** |
 | ------------ | ---------- | --------------- |
 | 0.2/17       | 2022/08/10 | Initial draft   |
 | 0.2/18       | 2022/08/10 | Add page breaks |
 
-Table: Change History
-
-\newpage
+---
 
 # Introduction
 
@@ -53,7 +50,7 @@ Table: Change History
 
 Edison bulb reprehenderit shaman chartreuse food truck. Meggings +1 keytar, swag intelligentsia VHS eiusmod farm-to-table palo santo cupidatat ad same. Yr DIY slow-carb flannel skateboard humblebrag edison bulb hoodie selfies squid photo booth helvetica cardigan subway tile vice. Duis street art brunch excepteur ut vice +1 sint in.
 
-\newpage
+---
 
 # Document Style
 
@@ -84,7 +81,7 @@ the kind informative comment, it can be considered a kind of normative statement
 > 
 > ***End of informative comment***
 
-\newpage
+---
 
 # References and Terms
 
@@ -96,7 +93,7 @@ the kind informative comment, it can be considered a kind of normative statement
 
 > The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. [spoilednyc.com](https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/).
 
-\newpage
+---
 
 # Diagrams
 
@@ -104,11 +101,9 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ![image of a computer](computer.jpg)
 
-Figure: Computer
-
 ## Hypochondria
 
-```mermaid
+```mermaid {caption="Hypochondriac's Conversation"}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -122,8 +117,6 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
-Figure: Hypochondria
-
 # Deserunt Tacos
 
 Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicing incididunt aute. Authentic typewriter direct trade et skateboard. Everyday carry aliquip aesthetic tattooed, XOXO palo santo pork belly thundercats gentrify veniam poutine nisi air plant pabst. Readymade tbh pitchfork pabst. Sint voluptate master cleanse vaporware. Humblebrag retro taxidermy, meggings labore chartreuse keffiyeh iceland laborum la croix ut ad DSA snackwave. Elit bicycle rights ramps, artisan put a bird on it bruh 90's gluten-free +1 occupy neutra microdosing.
@@ -133,6 +126,8 @@ Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicin
 Bodega boys selvage magna +1. Pinterest narwhal meditation ullamco. Blue bottle sustainable cloud bread esse pariatur, vibecession keytar. Paleo hoodie mixtape DIY banh mi eiusmod letterpress kinfolk la croix.
 
 # Mandatory Algorithms and Curves
+
+Table: List of Mandatory Algorithms
 
 | **Algorithm ID** | **M/R/O/D** | **Comments**                                  |
 | ---------------- | ----------- | --------------------------------------------- |
@@ -154,14 +149,12 @@ Bodega boys selvage magna +1. Pinterest narwhal meditation ullamco. Blue bottle 
 | TPM_ALG_SHA3_512 | O           |
 | TPM_ALG_NULL     | M           |
 
-Table: List of Mandatory Algorithms
+Table: List of Mandatory Curves
 
 | **Curve Identifier** | **M/R/O/D** | **Comments** |
 | -------------------- | ----------- | ------------ |
 | TPM_ECC_NIST_P256    | M           |
 | TPM_ECC_NIST_P384    | M           |
-
-Table: List of Mandatory Curves
 
 # Example Code
 

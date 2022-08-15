@@ -19,14 +19,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Set ownership
-        run: |
-          # this is to fix GIT not liking owner of the checkout dir
-          # workaround to https://github.com/actions/runner/issues/2033
-          chown -R $(id -u):$(id -g) $PWD
-
       - name: Render
-        uses: trustedcomputinggroup/markdown@v0.1.6
+        uses: trustedcomputinggroup/markdown@v0.2.0
         with:
           input-md: lorem.md
           output-pdf: lorem.pdf
