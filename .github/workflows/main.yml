@@ -13,24 +13,31 @@ jobs:
   render:
     runs-on: ubuntu-latest
     container:
-       image: ghcr.io/trustedcomputinggroup/pandoc:0.1.4
+       image: ghcr.io/trustedcomputinggroup/pandoc:0.2.1
     name: Render the example text
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Render
-        uses: trustedcomputinggroup/markdown@v0.2.0
+        uses: trustedcomputinggroup/markdown@v0.2.2
         with:
           input-md: lorem.md
           output-pdf: lorem.pdf
+          output-docx: lorem.docx
 
-      - name: Upload Artifact
+      - name: Upload PDF
         uses: actions/upload-artifact@master
         with:
           name: lorem.pdf
           path: lorem.pdf
           
+      - name: Upload DOCX
+        uses: actions/upload-artifact@master
+        with:
+          name: lorem.docx
+          path: lorem.docx
+ 
       - name: Check in latest render
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
