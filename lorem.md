@@ -1,7 +1,7 @@
 ---
 title: "Lorem Ipsum Platform Dolor Sit Amet Profile for TPM 2.0"
 version: 0.2
-revision: 18
+revision: 19
 date: 2022/08/14
 type: SPECIFICATION
 status: DRAFT
@@ -41,12 +41,13 @@ Table: Change History
 | ------------ | ---------- | --------------- |
 | 0.2/17       | 2022/08/10 | Initial draft   |
 | 0.2/18       | 2022/08/10 | Add page breaks |
+| 0.2/19       | 2022/08/24 | Fixes from TC   |
 
 ---
 
 # Introduction
 
-> Informative text! This text is very informative.
+> Informative text! This text is very informative. Did you know that Barbie's full name is "Barbara Millicent Roberts"?
 
 Edison bulb reprehenderit shaman chartreuse food truck. Meggings +1 keytar, swag intelligentsia VHS eiusmod farm-to-table palo santo cupidatat ad same. Yr DIY slow-carb flannel skateboard humblebrag edison bulb hoodie selfies squid photo booth helvetica cardigan subway tile vice. Duis street art brunch excepteur ut vice +1 sint in.
 
@@ -63,14 +64,13 @@ described in [RFC-2119](https://www.ietf.org/rfc/rfc2119.txt), Key words for use
 ## Statement Type
 
 Please note an important distinction between different sections of text throughout this document. There are two
-distinctive kinds of text: informative comment and normative statements. Because most of the text in this specification
-will be of the kind normative statements, the authors have informally defined it as the default and, as such, have
-specifically called out text of the kind informative comment. They have done this by flagging the beginning and end of
-each informative comment and highlighting its text in gray. This means that unless text is specifically marked as of
-the kind informative comment, it can be considered a kind of normative statements. 
+distinctive kinds of text: *informative comment* and *normative statement*. Because most of the text in this specification
+will be of the kind *normative statement*, the authors have informally defined it as the default and, as such, have
+specifically called out text of the kind *informative comment*. They have done this by highlighting its text in gray.
+This means that unless text is specifically marked as of the kind *informative comment*, it can be considered to be of the
+kind *normative statement*. 
 
-> **EXAMPLE: *Start of informative comment***
-> 
+
 > This is the first paragraph of 1–n paragraphs containing text of the kind informative comment ...
 > 
 > This is the second paragraph of text of the kind informative comment ...
@@ -78,8 +78,6 @@ the kind informative comment, it can be considered a kind of normative statement
 > This is the nth paragraph of text of the kind informative comment ...
 > 
 > To understand the TCG specification the user must read the specification. (This use of MUST does not require any action).
-> 
-> ***End of informative comment***
 
 ---
 
@@ -91,6 +89,8 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Terms
 
+### Bodega Boy {#bodega-boy}
+
 > The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. [spoilednyc.com](https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/).
 
 ---
@@ -99,7 +99,7 @@ the kind informative comment, it can be considered a kind of normative statement
 
 ## Computer
 
-![image of a computer](computer.jpg)
+![Image of a computer](computer.jpg)
 
 ## Hypochondria
 
@@ -107,14 +107,14 @@ the kind informative comment, it can be considered a kind of normative statement
 sequenceDiagram
     participant Alice
     participant Bob
-    Alice->>John: Hello John, how are you?
+    Alice->>Charlotte: Hello Charlotte, how are you?
     loop Healthcheck
-        John->>John: Fight against hypochondria
+        Charlotte->>Charlotte: Fight against hypochondria
     end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
+    Note right of Charlotte: Rational thoughts <br/>prevail!
+    Charlotte-->>Alice: Great!
+    Charlotte->>Bob: How about you?
+    Bob-->>Charlotte: Jolly good!
 ```
 
 # Deserunt Tacos
@@ -123,7 +123,7 @@ Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicin
 
 # Bodega Boys
 
-Bodega boys selvage magna +1. Pinterest narwhal meditation ullamco. Blue bottle sustainable cloud bread esse pariatur, vibecession keytar. Paleo hoodie mixtape DIY banh mi eiusmod letterpress kinfolk la croix.
+[Bodega boys](#bodega-boy) selvage magna +1. Pinterest narwhal meditation ullamco. Blue bottle sustainable cloud bread esse pariatur, vibecession keytar. Paleo hoodie mixtape DIY banh mi eiusmod letterpress kinfolk shasta.
 
 # Mandatory Algorithms and Curves
 
@@ -131,7 +131,7 @@ Table: List of Mandatory Algorithms
 
 | **Algorithm ID** | **M/R/O/D** | **Comments**                                  |
 | ---------------- | ----------- | --------------------------------------------- |
-| TPM_ALG_ECC      | M           | Support for 256 and 384-bit keys is required. |
+| TPM_ALG_ECC      | M           | Support for 384-bit keys is required.         |
 | TPM_ALG_ECDSA    | M           |
 | TPM_ALG_ECDH     | M           |
 | TPM_ALG_ECDAA    | O           |
@@ -153,7 +153,7 @@ Table: List of Mandatory Curves
 
 | **Curve Identifier** | **M/R/O/D** | **Comments** |
 | -------------------- | ----------- | ------------ |
-| TPM_ECC_NIST_P256    | M           |
+| TPM_ECC_NIST_P256    | O           |
 | TPM_ECC_NIST_P384    | M           |
 
 # Example Code
