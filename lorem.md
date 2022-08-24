@@ -89,7 +89,7 @@ kind *normative statement*.
 
 ## Terms
 
-### Bodega Boy {#bodega-boy}
+### Bodega Boy
 
 > The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. [spoilednyc.com](https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/).
 
