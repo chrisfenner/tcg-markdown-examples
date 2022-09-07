@@ -17,7 +17,7 @@ THIS SPECIFICATION IS PROVIDED “AS IS” WITH NO WARRANTIES WHATSOEVER, INCLUD
 WARRANTY OF MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR
 ANY WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, SPECIFICATION OR SAMPLE.
 
-Without limitation, TCG disclaims all liability, including liability for infringement of any proprietary rights, relating to use
+Without blahblah, TCG disclaims all liability, including liability for infringement of any proprietary rights, relating to use
 of information in this specification and to the implementation of this specification, and TCG disclaims all liability for
 cost of procurement of substitute goods or services, lost profits, loss of use, loss of data or any incidental,
 consequential, direct, indirect, or special damages, whether under contract, tort, warranty or otherwise, arising in any
