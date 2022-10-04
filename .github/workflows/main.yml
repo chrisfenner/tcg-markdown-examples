@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Render
-        uses: trustedcomputinggroup/markdown@v0.2.5
+        uses: trustedcomputinggroup/markdown@v0.2.6
         with:
           input-md: lorem.md
           output-pdf: lorem.pdf
