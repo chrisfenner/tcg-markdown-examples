@@ -13,14 +13,14 @@ jobs:
   render:
     runs-on: ubuntu-latest
     container:
-       image: ghcr.io/trustedcomputinggroup/pandoc:0.2.7
+       image: ghcr.io/trustedcomputinggroup/pandoc:0.3.1
     name: Render the example text
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Render
-        uses: trustedcomputinggroup/markdown@v0.2.3
+        uses: trustedcomputinggroup/markdown@v0.2.5
         with:
           input-md: lorem.md
           output-pdf: lorem.pdf
