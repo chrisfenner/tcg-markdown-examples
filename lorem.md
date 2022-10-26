@@ -3,18 +3,17 @@ title: "Lorem Ipsum Platform Dolor Sit Amet Profile for TPM 2.0"
 version: 0.2
 revision: 19
 date: 2022/08/14
-type: GUIDANCE
+type: SPECIFICATION
 status: DRAFT
 lot: true
 lof: true
-template: bluetop
 ...
 
 ---
 
 # Disclaimers, Notices, and License Terms
 
-THIS GUIDANCE DOCUMENT IS PROVIDED "AS IS" WITH NO WARRANTIES WHATSOEVER, INCLUDING
+THIS SPECIFICATION IS PROVIDED "AS IS" WITH NO WARRANTIES WHATSOEVER, INCLUDING
 ANY WARRANTY OF MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY PARTICULAR
 PURPOSE, OR ANY WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, SPECIFICATION OR
 SAMPLE.
@@ -49,6 +48,26 @@ owners.
 | **Revision** | **Date**   | **Description** |
 | ------------ | ---------- | --------------- |
 | 0.1/1        | 2022/09/17 | Initial draft   |
+
+---
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+---
+
+# Background and Scope
+
+**Background**
+
+The background is that this document needs to exist.
+
+**Scope**
+
+The scope is all lorem ipsum TPMs.
 
 ---
 
@@ -87,37 +106,20 @@ EXAMPLE:
 
 ---
 
-\tableofcontents
-
-\listoffigures
-
-\listoftables
-
----
-
-# Introduction
-
-> Informative text! This text is very informative. Did you know that Barbie's full name is "Barbara Millicent Roberts"?
-
-Edison bulb reprehenderit shaman chartreuse food truck. Meggings +1 keytar, swag intelligentsia VHS eiusmod farm-to-table palo santo cupidatat ad same. Yr DIY slow-carb flannel skateboard humblebrag edison bulb hoodie selfies squid photo booth helvetica cardigan subway tile vice. Duis street art brunch excepteur ut vice +1 sint in.
-
----
-
 # References and Terms
 
-## References
+**References**
 
 1. "Hipster Ipsum." https://hipsum.co
 
-## Terms
+**Terms**
 
-### Bodega Boy
-
-> The term "Bodega Boy" refers to any boy that is affiliated professionally with a bodega, c.f. [spoilednyc.com](https://spoilednyc.com/2015/09/15/bodegalife-7-reasons-why-your-bodega-guy-is-the-best-friend-you-never-even-knew-you-had-in-nyc/).
 >
-> | Table | test     |
-> | ----- | -------- |
-> | Row 1 | Contents |
+> ## A term
+> The first term.
+> 
+> ## Another term
+> Something else.
 >
 
 ---
@@ -145,6 +147,14 @@ sequenceDiagram
 ```
 
 # Deserunt Tacos
+
+
+>
+> | Table | test     |
+> | ----- | -------- |
+> | Row 1 | Contents |
+> | Row 2 | Contents |
+>
 
 Woke deserunt tacos elit put a bird on it, ethical ut YOLO fanny pack adipisicing incididunt aute. Authentic typewriter direct trade et skateboard. Everyday carry aliquip aesthetic tattooed, XOXO palo santo pork belly thundercats gentrify veniam poutine nisi air plant pabst. Readymade tbh pitchfork pabst. Sint voluptate master cleanse vaporware. Humblebrag retro taxidermy, meggings labore chartreuse keffiyeh iceland laborum la croix ut ad DSA snackwave. Elit bicycle rights ramps, artisan put a bird on it bruh 90's gluten-free +1 occupy neutra microdosing.
 
